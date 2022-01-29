@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "strictPropertyInitialization": false,
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "useDefineForClassFields": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "noImplicitAny": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "code/*"
+      ],
+    },
+    "typeRoots": [
+      "code/types"
+    ]
+  },
+  "include": [
+    "code/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
